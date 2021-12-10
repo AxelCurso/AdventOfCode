@@ -13,7 +13,7 @@
 :star2: 04 - Giant squid :squid: \
 :star2: 05 - Hydrothermal Venture :potable_water: \
 :star: 06 - Lanternfish :izakaya_lantern: \
-:poop: 07 - The Treachery of Whales :whale: \
+:star2: 07 - The Treachery of Whales :whale: \
 :star2: 08 - Seven Segment Search :hash: \
 :star2: 09 - Smoke Basin :hotsprings: \
 :star2: 10 - Syntax Scoring :symbols: \
