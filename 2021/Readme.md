@@ -11,7 +11,7 @@
 :star2: 02 - Dive! :droplet: \
 :star2: 03 - Binary Diagnostic :one::zero::one: \
 :star2: 04 - Giant squid :squid: \
-:poop: 05 - Hydrothermal Venture :potable_water: \
+:star2: 05 - Hydrothermal Venture :potable_water: \
 :poop: 06 - Lanternfish :izakaya_lantern: \
 :poop: 07 - The Treachery of Whales :whale: \
 :star2: 08 - Seven Segment Search :hash: \
