@@ -3,56 +3,58 @@
 #include <string.h>
 #include <stdlib.h>
 
+void printVec(std::vector<long long int> v){
+    for (int i = 0; i < v.size(); i++){
+        std::cout << v[i] << " ";
+    }
+    std::cout << std::endl;
+}
+
+long long int getLf(std::vector<long long int> v){
+    long long int count = 0;
+    for (int i = 0; i < v.size(); i++){
+        count += v[i];
+    }
+    return count;
+}
+
 int main(int argc, char const *argv[]) {
     int                 in;
     char                comma;
     std::vector<int>    lanternfish;
-    std::vector<int>    nbLanternfishPerDay;
-    int                 nbToPush;
-    long long int       count;
-    long long int       tmp;
+    std::vector<long long int>    lfPerDay;
+    long long int            nbToPush;
+    int                 nbRounds;
 
+    nbRounds = 256;
     while (std::cin >> in){
         std::cin >> comma;
         lanternfish.push_back(in);
     }
-    for (int i = 0; i < 256; i++){
-        nbLanternfishPerDay.push_back(0);
+    for (int i = 0; i < 9; i++){
+        lfPerDay.push_back(0);
     }
     for (int i = 0; i < lanternfish.size(); i++){
-        tmp = (256-lanternfish[i])/7;
-        for (int j = 0; j < tmp; j++){
-            nbLanternfishPerDay[j*7+lanternfish[i]]++;
-        }
-        count += tmp;
+        lfPerDay[lanternfish[i]]++;
     }
-    std::cout << "1 / 256   ->   " << count << std::endl;
-    for (int i = 1; i < 256; i++){
-        tmp = (256-i)/7;
-        count += tmp;
-        for (int j = 0; j < tmp; j++){
-            nbLanternfishPerDay[j*7+i]++;
-        }
-        std::cout << i+1 << " / 256   ->   " << count << std::endl ;
-        // std::cout << i << " / 256   ->   " << lanternfish[i] << std::endl ;
-        // nbToPush = 0;
-        // for (int j = 0; j < lanternfish.size(); j++){
-        //     if (lanternfish[j]){
-        //         lanternfish[j]--;
-        //     } else {
-        //         lanternfish[j] = 6;
-        //         nbToPush++;
-        //     }
-        // }
-        // for (int j = 0; j < nbToPush; j++){
-        //     lanternfish.push_back(8);
-        // }
+    printVec(lfPerDay);
+    for (int i = 0; i < nbRounds; i++){
+        nbToPush = lfPerDay[0];
+        lfPerDay[0] = lfPerDay[1];
+        lfPerDay[1] = lfPerDay[2];
+        lfPerDay[2] = lfPerDay[3];
+        lfPerDay[3] = lfPerDay[4];
+        lfPerDay[4] = lfPerDay[5];
+        lfPerDay[5] = lfPerDay[6];
+        lfPerDay[6] = lfPerDay[7];
+        lfPerDay[7] = lfPerDay[8];
+
+        lfPerDay[6] += nbToPush;
+        lfPerDay[8] = nbToPush;
+
+        std::cout << i+1 << ": ";
+        printVec(lfPerDay);
     }
-    count = 0;
-    for (int i = 0; i < 256; i++){
-        count += nbLanternfishPerDay[i];
-    }
-    // std::cout << "Res: " << lanternfish.size() << std::endl;
-    std::cout << "Res: " << count << std::endl;
+    std::cout << "Res: " << getLf(lfPerDay) << std::endl;
     return 0;
 }
