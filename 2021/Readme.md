@@ -2,15 +2,15 @@
 *Days counter: 10*
 
 ## Score:
-- :star2: 6 - Golden star (part1 and part2 completed)
-- :star: 1 - Silver star (only part1 completed)
+- :star2: 7 - Golden star (part1 and part2 completed)
+- :star: 0 - Silver star (only part1 completed)
 - :poop: 3 - Not done
 
 ## Day by day:
 :star2: 01 - Sonar Sweep :satellite: \
 :star2: 02 - Dive! :droplet: \
 :star2: 03 - Binary Diagnostic :one::zero::one: \
-:star: 04 - Giant squid :squid: \
+:star2: 04 - Giant squid :squid: \
 :poop: 05 - Hydrothermal Venture :potable_water: \
 :poop: 06 - Lanternfish :izakaya_lantern: \
 :poop: 07 - The Treachery of Whales :whale: \
