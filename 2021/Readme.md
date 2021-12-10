@@ -3,8 +3,8 @@
 
 ## Score:
 - :star2: 7 - Golden star (part1 and part2 completed)
-- :star: 0 - Silver star (only part1 completed)
-- :poop: 3 - Not done
+- :star: 1 - Silver star (only part1 completed)
+- :poop: 2 - Not done
 
 ## Day by day:
 :star2: 01 - Sonar Sweep :satellite: \
@@ -12,7 +12,7 @@
 :star2: 03 - Binary Diagnostic :one::zero::one: \
 :star2: 04 - Giant squid :squid: \
 :star2: 05 - Hydrothermal Venture :potable_water: \
-:poop: 06 - Lanternfish :izakaya_lantern: \
+:star: 06 - Lanternfish :izakaya_lantern: \
 :poop: 07 - The Treachery of Whales :whale: \
 :star2: 08 - Seven Segment Search :hash: \
 :star2: 09 - Smoke Basin :hotsprings: \
@@ -32,3 +32,6 @@
 :zzz: 23 - \
 :zzz: 24 - \
 :zzz: 25 -
+
+## Notes
+- Day 06 : A formula can be found, for sure (don't have the time atm to find it)
