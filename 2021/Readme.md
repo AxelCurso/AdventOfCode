@@ -1,10 +1,10 @@
 # Advent of Code - 2021
-*Days counter: 10*
+*Days counter: 11*
 
 ## Score:
 - :star2: 10 - Golden star (part1 and part2 completed)
 - :star: 0 - Silver star (only part1 completed)
-- :poop: 0 - Not done
+- :poop: 1 - Not done
 
 ## Day by day:
 :star2: 01 - Sonar Sweep :satellite: \
@@ -17,7 +17,7 @@
 :star2: 08 - Seven Segment Search :hash: \
 :star2: 09 - Smoke Basin :hotsprings: \
 :star2: 10 - Syntax Scoring :symbols: \
-:zzz: 11 - \
+:poop: 11 - Dumbo Octopus :octopus: \
 :zzz: 12 - \
 :zzz: 13 - \
 :zzz: 14 - \
