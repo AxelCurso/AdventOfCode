@@ -1,8 +1,8 @@
 # Advent of Code - 2021
-*Days counter: 12*
+*Days counter: 13*
 
 ## Score:
-- :star2: 10 - Golden star (part1 and part2 completed)
+- :star2: 11 - Golden star (part1 and part2 completed)
 - :star: 0 - Silver star (only part1 completed)
 - :poop: 2 - Not done
 
@@ -19,7 +19,7 @@
 :star2: 10 - Syntax Scoring :symbols: \
 :poop: 11 - Dumbo Octopus :octopus: \
 :poop: 12 - Passage pathing :motorway: \
-:zzz: 13 - \
+:star2: 13 - Transparent Origami :scroll: \
 :zzz: 14 - \
 :zzz: 15 - \
 :zzz: 16 - \
