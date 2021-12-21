@@ -1,10 +1,10 @@
 # Advent of Code - 2021
-*Days counter: 121*
+*Days counter: 21*
 
 ## Score:
 - :star2: 11 - Golden star (part1 and part2 completed)
-- :star: 1 - Silver star (only part1 completed)
-- :poop: 2 - Not done
+- :star: 2 - Silver star (only part1 completed)
+- :poop: 8 - Not done
 
 ## Day by day:
 :star2: 01 - Sonar Sweep :satellite: \
@@ -21,13 +21,13 @@
 :poop: 12 - Passage pathing :motorway: \
 :star2: 13 - Transparent Origami :scroll: \
 :star: 14 - Extended Polymerization :biohazard: \
-:zzz: 15 - Chiton :shell: \
-:zzz: 16 - Packet Decoder :package: \
-:zzz: 17 - Trick shot :man_juggling: \
-:zzz: 18 - Snailfish :snail::fish: \
-:zzz: 19 - Beacon Scanner :artificial_satellite: \
-:zzz: 20 - Trench map :world_map: \
-:zzz: 21 - Dirac Dice :game_die: \
+:poop: 15 - Chiton :shell: \
+:poop: 16 - Packet Decoder :package: \
+:poop: 17 - Trick shot :man_juggling: \
+:poop: 18 - Snailfish :snail::fish: \
+:poop: 19 - Beacon Scanner :artificial_satellite: \
+:poop: 20 - Trench map :world_map: \
+:star: 21 - Dirac Dice :game_die: \
 :zzz: 22 - \
 :zzz: 23 - \
 :zzz: 24 - \
