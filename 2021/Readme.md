@@ -1,5 +1,5 @@
 # Advent of Code - 2021
-*Days counter: 14*
+*Days counter: 121*
 
 ## Score:
 - :star2: 11 - Golden star (part1 and part2 completed)
@@ -21,13 +21,13 @@
 :poop: 12 - Passage pathing :motorway: \
 :star2: 13 - Transparent Origami :scroll: \
 :star: 14 - Extended Polymerization :biohazard: \
-:zzz: 15 - \
-:zzz: 16 - \
-:zzz: 17 - \
-:zzz: 18 - \
-:zzz: 19 - \
-:zzz: 20 - \
-:zzz: 21 - \
+:zzz: 15 - Chiton :shell: \
+:zzz: 16 - Packet Decoder :package: \
+:zzz: 17 - Trick shot :man_juggling: \
+:zzz: 18 - Snailfish :snail::fish: \
+:zzz: 19 - Beacon Scanner :artificial_satellite: \
+:zzz: 20 - Trench map :world_map: \
+:zzz: 21 - Dirac Dice :game_die: \
 :zzz: 22 - \
 :zzz: 23 - \
 :zzz: 24 - \
