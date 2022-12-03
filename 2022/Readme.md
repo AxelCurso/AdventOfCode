@@ -1,14 +1,14 @@
 # Advent of Code - 2022
-*Days counter: 1*
+*Days counter: 2*
 
 ## Score:
-- :star2: 1 - Golden star (part1 and part2 completed)
+- :star2: 2 - Golden star (part1 and part2 completed)
 - :star: 0 - Silver star (only part1 completed)
 - :poop: 0 - Not done
 
 ## Day by day:
 :star2: 01 - Calorie Counting :doughnut: \
-:zzz: 02 - \
+:star2: 02 - Rock Paper Scissors :rock::page_facing_up::scissors: \
 :zzz: 03 - \
 :zzz: 04 - \
 :zzz: 05 - \
